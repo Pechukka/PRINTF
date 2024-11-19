@@ -21,5 +21,6 @@ int	ft_putstr(char *str)
 	if (!str)
 		str = "(null)";
 	len = ft_strlen(str);
-	return (write(1, str, len));
+	write(1, str, len);
+	return (len);
 }

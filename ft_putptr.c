@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-void	ft_putchar_fd(char c, int fd);
+int	ft_putchar(int c);
 
 int	ft_ptrlen(uintptr_t num)
 {
@@ -37,9 +37,9 @@ void	ft_hexptr(uintptr_t num)
 	else
 	{
 		if (num <= 9)
-			ft_putchar_fd((num + '0'), 1);
+			ft_putchar(num + '0');
 		else
-			ft_putchar_fd((num - 10 + 'a'), 1);
+			ft_putchar(num - 10 + 'a');
 	}
 }
 

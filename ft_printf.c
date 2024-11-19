@@ -2,9 +2,12 @@
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: epedrosa <epedrosa@student.42malaga.com    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
+/*                                                    +:+ +:+        
+	+:+     */
+/*   By: epedrosa <epedrosa@student.42malaga.com    +#+  +:+      
+	+#+        */
+/*                                                +#+#+#+#+#+  
+	+#+           */
 /*   Created: 2024/11/19 17:12:48 by epedrosa          #+#    #+#             */
 /*   Updated: 2024/11/19 17:12:48 by epedrosa         ###   ########.fr       */
 /*                                                                            */
